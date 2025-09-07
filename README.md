@@ -43,10 +43,6 @@ Each entity (`User`, `Customer`, `Admin`, `SuperAdmin`, `Bank`, `Currency`, `Tra
         Unit Testing.pdf
         Class Diagram.pdf
 
-    data/                    # Data storage
-        *.customer           # Customer account files
-        *.admin              # Admin account files
-
     README.md                # Project manual
 
 ---
