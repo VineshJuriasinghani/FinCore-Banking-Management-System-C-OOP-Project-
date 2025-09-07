@@ -25,31 +25,29 @@ Each entity (`User`, `Customer`, `Admin`, `SuperAdmin`, `Bank`, `Currency`, `Tra
 ---
 
 ## Project Structure
+  
+    src/                     # Source code
+        main.cpp             # Entry point
+        User.h / User.cpp
+        Customer.h / Customer.cpp
+        Admin.h / Admin.cpp
+        SuperAdmin.h / SuperAdmin.cpp
+        Bank.h / Bank.cpp
+        Currency.h / Currency.cpp
+        Transactions.h / Transactions.cpp
+        TaxationDepartment.h / TaxationDepartment.cpp
+        Makefile
 
-FinCore/
-│
-├── src/                     # Source code
-│   ├── main.cpp             # Entry point
-│   ├── User.h / User.cpp
-│   ├── Customer.h / Customer.cpp
-│   ├── Admin.h / Admin.cpp
-│   ├── SuperAdmin.h / SuperAdmin.cpp
-│   ├── Bank.h / Bank.cpp
-│   ├── Currency.h / Currency.cpp
-│   ├── Transactions.h / Transactions.cpp
-│   ├── TaxationDepartment.h / TaxationDepartment.cpp
-│   └── Makefile
-│
-├── docs/                    # Documentation
-│   ├── User Manual.pdf
-│   ├── Unit Testing.pdf
-│   └── Class Diagram.pdf
-│
-├── data/                    # Data storage
-│   ├── *.customer           # Customer account files
-│   └── *.admin              # Admin account files
-│
-└── README.md                # Project manual
+    docs/                    # Documentation
+        User Manual.pdf
+        Unit Testing.pdf
+        Class Diagram.pdf
+
+    data/                    # Data storage
+        *.customer           # Customer account files
+        *.admin              # Admin account files
+
+    README.md                # Project manual
 
 ---
 
