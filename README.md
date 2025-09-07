@@ -37,15 +37,19 @@ Each entity (`User`, `Customer`, `Admin`, `SuperAdmin`, `Bank`, `Currency`, `Tra
         Transactions.h / Transactions.cpp
         TaxationDepartment.h / TaxationDepartment.cpp
         Makefile
+        
+        data/      # Data storage
+          transaction.bank
+          currency.bank          
+          admin.bank
+          customer.bank
 
     docs/                    # Documentation
         User Manual.pdf
         Unit Testing.pdf
         Class Diagram.pdf
 
-    data/                    # Data storage
-        *.customer           # Customer account files
-        *.admin              # Admin account files
+    
 
     README.md                # Project manual
 
